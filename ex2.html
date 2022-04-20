@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="./js2.js" defer></script>
     <link rel="stylesheet" type="text/css" href="style.css" />
 
     <!-- Font Poppins-->
@@ -15,7 +16,6 @@
     />
 
     <!-- Font Awnsome-->
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -23,16 +23,21 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <script src="./js2.js" defer></script>
+
     <title>Exercícios</title>
   </head>
   <body>
-    <header>My TodoList</header>
-    <form action="">
-      <input type="text" class="todo-input" />
-      <button class="todo-button" type="submit">
+    <header>Todo List</header>
+    <form>
+      <input type="text" class="todo-input" id="input" />
+      <button class="todo-button" type="submit" onclick="atualizar(this)">
         <i class="fas fa-plus"></i>
       </button>
     </form>
+    <div class="tarefa">
+      <h1 id="nome"></h1>
+      <button class="botao1"></button>
+      <button class="botao2"></button>
+    </div>
   </body>
 </html>

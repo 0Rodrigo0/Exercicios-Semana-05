@@ -17,7 +17,7 @@ body {
 }
 
 header {
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 
 header,
@@ -47,4 +47,41 @@ form button:hover {
   background: black;
   cursor: pointer;
   transition: all 0.3s ease;
+}
+
+#tarefas {
+  width: 100vh;
+  height: auto;
+}
+.tarefa {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  width: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  color: black;
+  background-color: white;
+}
+
+.botao1 {
+  padding: 2rem;
+  font-size: 2rem;
+  border: none;
+  background-color: rgba(0, 128, 0, 0.904);
+}
+
+.botao2 {
+  padding: 2rem;
+  font-size: 2rem;
+  border: none;
+  background-color: rgba(255, 0, 0, 0.904);
 }

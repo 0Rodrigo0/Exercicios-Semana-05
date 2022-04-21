@@ -36,7 +36,7 @@ form button {
   background: white;
 }
 
-font button {
+form button {
   color: orangered;
   background: white;
   cursor: pointer;
@@ -49,39 +49,45 @@ form button:hover {
   transition: all 0.3s ease;
 }
 
-#tarefas {
-  width: 100vh;
-  height: auto;
+.tarefa-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.lista-tarefa {
+  min-width: 30%;
+  list-style: none;
+}
+
 .tarefa {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-h1 {
-  width: 50vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0.5rem;
-  font-size: 2rem;
-  border: none;
+  margin: 0.5rem;
+  background: white;
   color: black;
-  background-color: white;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.botao1 {
-  padding: 2rem;
-  font-size: 2rem;
-  border: none;
-  background-color: rgba(0, 128, 0, 0.904);
+.tarefa li {
+  flex: 1;
 }
 
-.botao2 {
-  padding: 2rem;
-  font-size: 2rem;
+.botao-lido,
+.botao-lixo {
+  background-color: rgba(255, 0, 0, 0.842);
+  color: white;
   border: none;
-  background-color: rgba(255, 0, 0, 0.904);
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.botao-lido {
+  background: rgba(0, 128, 0, 0.877);
+}
+
+.item-tarefa {
+  padding: 0rem 0.5rem;
 }

@@ -1,5 +1,7 @@
 # Exercicios-Semana-05
 
+Acesse a lista e tarefas em JS no link abaixo:
+
 https://0rodrigo0.github.io/Exercicios-Semana-05/TodoList.html
 
 Contatos <br>

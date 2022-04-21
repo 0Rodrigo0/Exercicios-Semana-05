@@ -5,6 +5,7 @@ const listaTarefa = document.querySelector(".lista-tarefa");
 
 // evento do botao que chama a funcao adicionaTarefa
 botaoTarefa.addEventListener("click", adicionaTarefa);
+listaTarefa.addEventListener("click", deleteCheck);
 
 // funcoes
 function adicionaTarefa(event) {
@@ -40,4 +41,16 @@ function adicionaTarefa(event) {
   listaTarefa.appendChild(divTarefa);
   //aqui esta limpando o input após a inserção para ele ficar em branco
   entradaTarefa.value = "";
+}
+
+function deleteCheck(event) {
+  const item = event.target;
+  if (item.classList[0] === "botao-lixo") {
+    const tarefa = item.parentElement;
+    tarefa.remove();
+  }
+  if (item.classList[0] === "botao-lido") {
+    const tarefa = item.parentElement;
+    tarefa.classList.toggle("completed");
+  }
 }

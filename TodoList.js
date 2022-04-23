@@ -20,7 +20,6 @@ function adicionaTarefa(event) {
   const novaTarefa = document.createElement("li");
   novaTarefa.innerText = entradaTarefa.value;
   novaTarefa.classList.add("item-tarefa");
-  console.log(novaTarefa);
   // aqui adicionando na div o li
   divTarefa.appendChild(novaTarefa);
 

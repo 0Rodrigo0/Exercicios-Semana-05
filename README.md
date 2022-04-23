@@ -15,3 +15,26 @@ E-mail: rodrigobl1@yahoo.com.br.
 Linkedin: https://www.linkedin.com/in/rodrigo-blw/
 
 °•.**\_\_\_**{°-°}**\_\_\_\_**.•°
+
+# DevinHouse
+
+## EF da nossa ToDo List:
+
+Especificação de Funcionalidade do TodoList
+
+## Features
+
+- Será uma lista e tarefas. Cada tarefa inserida no imput será salva e mostrada abaixo do mesmo em forma de lista.
+- Caixa de texto Imput para inserção dos dados.
+- Serão três botões na aplicação.
+- Um botão será para inserir os dados, outro para excluir e outro para marcar como tarefa concluida.
+- Os dados serão persistidos na memória do navegador LocalStorage.
+
+Abaixo as tecnologias utilizadas:
+
+## Tech
+
+- [Html5] - HTML na versão 5
+- [CSS] - estilização com CSS
+- [JavaScript] - Ecma6 para as funcionalidaeds
+- [TodoList](https://0rodrigo0.github.io/Exercicios-Semana-05/TodoList.html) - Aqui você pode acessar a ferramenta.
